@@ -8,10 +8,10 @@ A scorable checklist for evaluating an AI-assisted product against the 12 accoun
 
 Each item is scored 0 to 3:
 
-- **0** — Not present
-- **1** — Partially present or inconsistently applied
-- **2** — Present and functional
-- **3** — Present, consistent, and exemplary
+- **0**: Not present
+- **1**: Partially present or inconsistently applied
+- **2**: Present and functional
+- **3**: Present, consistent, and exemplary
 
 **Maximum score: 192**
 
@@ -31,7 +31,7 @@ Each item is scored 0 to 3:
 | 1.1 | AI outputs display the source data or documents they drew from, inline with the output | |
 | 1.2 | Changes to records, artifacts, or documents show who made them and when, at the point of display | |
 | 1.3 | The reasoning path from input to AI conclusion is accessible to the user, not hidden in a log | |
-| 1.4 | Modified records show an explicit diff — what changed, not just that something changed | |
+| 1.4 | Modified records show an explicit diff: what changed, not just that something changed | |
 | 1.5 | Attribution is visible without navigating away from the artifact | |
 | 1.6 | AI-generated content is visually distinguished from human-generated content | |
 
@@ -43,7 +43,7 @@ Each item is scored 0 to 3:
 
 | # | Item | Score (0–3) |
 |---|------|-------------|
-| 2.1 | The system maintains an append-only log — records cannot be edited or deleted after creation | |
+| 2.1 | The system maintains an append-only log: records cannot be edited or deleted after creation | |
 | 2.2 | Every significant user and system action is recorded with actor, action, timestamp, and object | |
 | 2.3 | Audit records are exportable in a format readable by a reviewer who was not present | |
 | 2.4 | Key approvals and sign-offs carry a non-repudiation record (actor identity + timestamp + signed action) | |
@@ -105,7 +105,7 @@ Each item is scored 0 to 3:
 | 6.2 | The AI provides a natural-language summary of why it reached its conclusion | |
 | 6.3 | For structured data inputs, the AI surfaces which factors most influenced the output | |
 | 6.4 | Every AI-generated claim is linked to the specific source it drew from | |
-| 6.5 | Confidence levels are calibrated — stated confidence reflects actual accuracy | |
+| 6.5 | Confidence levels are calibrated: stated confidence reflects actual accuracy | |
 | 6.6 | Explanations are written in the user's domain vocabulary, not in machine learning terminology | |
 
 **Section total: /18**
@@ -175,7 +175,7 @@ Each item is scored 0 to 3:
 |---|------|-------------|
 | 11.1 | A system card or model card is accessible from within the product, not only in external documentation | |
 | 11.2 | The product communicates what the AI can and cannot do at the point of first use | |
-| 11.3 | Data usage — what the AI was trained on and what it sends to third parties — is disclosed | |
+| 11.3 | Data usage: what the AI was trained on and what it sends to third parties: is disclosed | |
 | 11.4 | When the AI is operating at the edge of its reliable range, a limitation notice is displayed | |
 | 11.5 | Users can access the current AI model version and its capabilities without leaving their active workflow | |
 

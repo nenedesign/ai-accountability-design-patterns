@@ -6,7 +6,7 @@ Breadcrumbing is the practice of leaving visible markers as a user or system mov
 
 ## Why It Matters for AI-Assisted Products
 
-Complex AI-assisted workflows — investigation, diagnosis, underwriting, compliance review — involve many steps, many AI suggestions, and many human decisions. Without breadcrumbing, it is impossible to reconstruct the process after the fact, understand why a conclusion was reached, or identify where the workflow went wrong. The path matters as much as the destination.
+Complex AI-assisted workflows (investigation, diagnosis, underwriting, compliance review) involve many steps, many AI suggestions, and many human decisions. Without breadcrumbing, it is impossible to reconstruct the process after the fact, understand why a conclusion was reached, or identify where the workflow went wrong. The path matters as much as the destination.
 
 ## Established Patterns
 
@@ -32,9 +32,9 @@ A timeline view of an investigator's session: which artifacts were reviewed, in 
 
 ## Connections
 
-- **Traceability** — traceability follows data and decisions; breadcrumbing follows the human path through the workflow
-- **Auditability** — annotation trails and suggestion trails are audit artifacts
-- **Responsibility Assignment** — the breadcrumb trail identifies who did what at each step
+- **Traceability**: traceability follows data and decisions; breadcrumbing follows the human path through the workflow
+- **Auditability**: annotation trails and suggestion trails are audit artifacts
+- **Responsibility Assignment**: the breadcrumb trail identifies who did what at each step
 
 ## Sources
 

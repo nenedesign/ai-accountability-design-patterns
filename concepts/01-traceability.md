@@ -13,7 +13,7 @@ Traceability is the design property that keeps AI outputs accountable to their i
 ## Established Patterns
 
 ### Inline Attribution [Established]
-Every output, change, or action displays who performed it, when, and what it acted on — at the point of display, not in a separate log. GitHub's blame view, Figma's version history, Google Docs' edit attribution, and Notion's activity trail all implement this. The record is visible without navigating away from the artifact.
+Every output, change, or action displays who performed it, when, and what it acted on: at the point of display, not in a separate log. GitHub's blame view, Figma's version history, Google Docs' edit attribution, and Notion's activity trail all implement this. The record is visible without navigating away from the artifact.
 
 ### Source Citation [Established]
 Every AI-generated claim or recommendation is linked to the specific source it drew from. Perplexity and Bing Copilot display numbered source citations inline with answers. Retrieval-augmented generation (RAG) systems implement this by surfacing the retrieved document alongside the generated response. The user can verify the claim against the source without leaving the interface.
@@ -22,7 +22,7 @@ Every AI-generated claim or recommendation is linked to the specific source it d
 The reasoning path from input to conclusion is visible to the user. Legal AI tools link AI-generated analysis to the specific case law that supports it. Clinical decision support systems surface the evidence rules triggered by a patient's data. The trail is part of the output, not an optional deep-dive.
 
 ### Diff View [Established]
-Changes to a document, record, or artifact are displayed explicitly — what was added, what was removed, what remained. GitHub pull request diffs, Figma version comparison, and document revision history all implement this. The user does not infer what changed; the system shows it.
+Changes to a document, record, or artifact are displayed explicitly: what was added, what was removed, what remained. GitHub pull request diffs, Figma version comparison, and document revision history all implement this. The user does not infer what changed; the system shows it.
 
 ## Proposed Patterns
 
@@ -30,10 +30,10 @@ No proposed patterns. Established coverage is sufficient.
 
 ## Connections
 
-- **Auditability** — traceability explains how an output was produced; auditability records that it happened
-- **Provenance** — traceability follows a decision path; provenance follows a data origin
-- **Breadcrumbing** — breadcrumbing is the navigation equivalent of traceability
-- **Explainability** — explainability is a specific form of traceability applied to AI reasoning
+- **Auditability**: traceability explains how an output was produced; auditability records that it happened
+- **Provenance**: traceability follows a decision path; provenance follows a data origin
+- **Breadcrumbing**: breadcrumbing is the navigation equivalent of traceability
+- **Explainability**: explainability is a specific form of traceability applied to AI reasoning
 
 ## Sources
 

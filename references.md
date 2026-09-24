@@ -8,9 +8,9 @@ EU AI Act (2024). European Parliament and Council of the European Union. https:/
 
 IEEE 7001-2021: Transparency of Autonomous Systems. https://standards.ieee.org/ieee/7001/6929/
 
-ISO/IEC 42001:2023 — Artificial Intelligence Management System. https://www.iso.org/standard/81230.html
+ISO/IEC 42001:2023: Artificial Intelligence Management System. https://www.iso.org/standard/81230.html
 
-ISO/IEC 27001:2022 — Information Security Management Systems. https://www.iso.org/standard/82875.html
+ISO/IEC 27001:2022: Information Security Management Systems. https://www.iso.org/standard/82875.html
 
 SOC 2 Trust Service Criteria. American Institute of CPAs. https://www.aicpa.org/resources/download/2017-trust-services-criteria
 
@@ -58,11 +58,11 @@ Mitchell, M., Wu, S., Zaldivar, A., et al. (2019). Model Cards for Model Reporti
 
 ## Data Lineage and Provenance
 
-OpenLineage — Open Standard for Data Lineage. https://openlineage.io/
+OpenLineage: Open Standard for Data Lineage. https://openlineage.io/
 
-Apache Atlas — Data Governance and Metadata Framework. https://atlas.apache.org/
+Apache Atlas: Data Governance and Metadata Framework. https://atlas.apache.org/
 
-dbt — Data Build Tool. https://www.getdbt.com/
+dbt: Data Build Tool. https://www.getdbt.com/
 
 Schelter, S., et al. (2018). Automating Large-Scale Data Quality Verification. VLDB 2018. https://dl.acm.org/doi/10.14778/3229863.3229867
 
@@ -72,21 +72,21 @@ Gundersen, O. & Kjensmo, S. (2018). State of the Art: Reproducibility in Artific
 
 Hutson, M. (2018). Artificial intelligence faces reproducibility crisis. Science, 359(6377). https://www.science.org/doi/10.1126/science.359.6377.725
 
-MLflow — Open Source Platform for the Machine Learning Lifecycle. https://mlflow.org/
+MLflow: Open Source Platform for the Machine Learning Lifecycle. https://mlflow.org/
 
-DVC — Data Version Control. https://dvc.org/
+DVC: Data Version Control. https://dvc.org/
 
 ## Observability and ML Monitoring
 
-OpenTelemetry — Cloud Native Computing Foundation. https://opentelemetry.io/
+OpenTelemetry: Cloud Native Computing Foundation. https://opentelemetry.io/
 
 Sculley, D., Holt, G., Golovin, D., et al. (2015). Hidden Technical Debt in Machine Learning Systems. NeurIPS 2015. https://dl.acm.org/doi/10.5555/2969442.2969519
 
 Kleppmann, M. (2017). Designing Data-Intensive Applications. O'Reilly.
 
-Arize AI — ML Observability Platform. https://arize.com/
+Arize AI: ML Observability Platform. https://arize.com/
 
-WhyLabs — AI Observability. https://whylabs.ai/
+WhyLabs: AI Observability. https://whylabs.ai/
 
 ## UX and Navigation Design
 

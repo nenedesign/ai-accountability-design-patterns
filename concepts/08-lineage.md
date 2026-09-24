@@ -6,7 +6,7 @@ Lineage is the end-to-end documented history of a piece of data as it moves thro
 
 ## Why It Matters for AI-Assisted Products
 
-AI systems process data through pipelines — ingestion, cleaning, transformation, embedding, retrieval, inference. Each step can introduce errors, bias, or loss of information. Without lineage, it is impossible to determine whether a flawed AI output was caused by bad source data, a transformation error, or a model problem. In regulated environments, data lineage is a compliance requirement: financial regulators, healthcare auditors, and data protection authorities all require the ability to trace data through processing pipelines.
+AI systems process data through pipelines: ingestion, cleaning, transformation, embedding, retrieval, inference. Each step can introduce errors, bias, or loss of information. Without lineage, it is impossible to determine whether a flawed AI output was caused by bad source data, a transformation error, or a model problem. In regulated environments, data lineage is a compliance requirement: financial regulators, healthcare auditors, and data protection authorities all require the ability to trace data through processing pipelines.
 
 ## Established Patterns
 
@@ -22,23 +22,23 @@ For any output, the system can show all upstream data items and transformations 
 ## Proposed Patterns
 
 ### Evidence Pipeline Disclosure [Proposed]
-A simplified, investigator-facing representation of how digital evidence was processed before it reached the review interface. Current forensic tools display the results of processing — extracted artifacts, classified items, ranked findings — without surfacing the pipeline that produced them. An investigator reviewing an AI-classified image should be able to see: what model processed it, what version, what classification criteria were applied, and whether any pre-processing altered the artifact. This is a simplified lineage view designed for domain users, not engineers.
+A simplified, investigator-facing representation of how digital evidence was processed before it reached the review interface. Current forensic tools display the results of processing (extracted artifacts, classified items, ranked findings) without surfacing the pipeline that produced them. An investigator reviewing an AI-classified image should be able to see: what model processed it, what version, what classification criteria were applied, and whether any pre-processing altered the artifact. This is a simplified lineage view designed for domain users, not engineers.
 
 ## Connections
 
-- **Provenance** — provenance is the starting point of lineage; lineage is the full journey
-- **Integrity** — lineage traces the path; integrity verifies no unauthorized alteration occurred at each step
-- **Traceability** — lineage traces data through a pipeline; traceability links a decision back to its inputs
-- **Reproducibility** — a full lineage record is a prerequisite for reproducibility
+- **Provenance**: provenance is the starting point of lineage; lineage is the full journey
+- **Integrity**: lineage traces the path; integrity verifies no unauthorized alteration occurred at each step
+- **Traceability**: lineage traces data through a pipeline; traceability links a decision back to its inputs
+- **Reproducibility**: a full lineage record is a prerequisite for reproducibility
 
 ## Sources
 
 Moreau, L., Missier, P., et al. (2013). PROV-DM: The PROV Data Model. W3C Recommendation. https://www.w3.org/TR/prov-dm/
 
-OpenLineage — Open Standard for Data Lineage. https://openlineage.io/
+OpenLineage: Open Standard for Data Lineage. https://openlineage.io/
 
-Apache Atlas — Data Governance and Metadata Framework. https://atlas.apache.org/
+Apache Atlas: Data Governance and Metadata Framework. https://atlas.apache.org/
 
-dbt — Data Build Tool. Lineage and documentation. https://www.getdbt.com/
+dbt: Data Build Tool. Lineage and documentation. https://www.getdbt.com/
 
 Schelter, S., et al. (2018). Automating Large-Scale Data Quality Verification. VLDB 2018. https://dl.acm.org/doi/10.14778/3229863.3229867

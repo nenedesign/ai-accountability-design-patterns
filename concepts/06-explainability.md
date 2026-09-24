@@ -13,7 +13,7 @@ Explainability is the design property that keeps AI judgment visible to human ju
 ## Established Patterns
 
 ### Confidence Display [Established]
-The AI outputs a confidence level alongside its recommendation, expressed in plain language or as a calibrated score. Clinical decision support systems and financial risk tools implement this. Design requirement: confidence must be calibrated — a 90% confidence score must be correct approximately 90% of the time — and expressed in terms the user can interpret, not raw probability.
+The AI outputs a confidence level alongside its recommendation, expressed in plain language or as a calibrated score. Clinical decision support systems and financial risk tools implement this. Design requirement: confidence must be calibrated. A 90% confidence score must be correct approximately 90% of the time and expressed in terms the user can interpret, not raw probability.
 
 ### Reasoning Summary [Established]
 The AI provides a natural-language explanation of why it reached its conclusion: what it considered, what it weighted heavily, and what it ruled out. Chain-of-thought prompting makes this accessible at the model level. Legal AI tools surface reasoning alongside conclusions. Clinical tools present the evidence rules that triggered a recommendation.
@@ -30,9 +30,9 @@ No proposed patterns. Established coverage is sufficient.
 
 ## Connections
 
-- **Transparency** — explainability is per-decision (why did the AI produce this output); transparency is per-system (how does the AI work in general)
-- **Traceability** — explainability follows the AI's reasoning; traceability follows the data and actor path
-- **Reproducibility** — an explainable output is a step toward a reproducible one; the methodology must be disclosed
+- **Transparency**: explainability is per-decision (why did the AI produce this output); transparency is per-system (how does the AI work in general)
+- **Traceability**: explainability follows the AI's reasoning; traceability follows the data and actor path
+- **Reproducibility**: an explainable output is a step toward a reproducible one; the methodology must be disclosed
 
 ## Sources
 

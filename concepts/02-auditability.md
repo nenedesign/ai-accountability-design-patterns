@@ -22,7 +22,7 @@ A real-time, human-readable record of recent actions is visible within the produ
 The system produces a structured, compliance-ready export of activity for a defined period or scope. The export is formatted for a reviewer who was not present: it includes actor, action, timestamp, object, and outcome. Designed for external auditors, legal counsel, or compliance officers.
 
 ### Non-Repudiation Record [Established]
-Key actions — approvals, sign-offs, authorizations — are cryptographically signed so the actor cannot later deny having performed them. DocuSign implements this for document signatures. SWIFT messages use this for financial transactions. In AI-assisted systems: any human approval of an AI recommendation should carry a non-repudiation record.
+Key actions (approvals, sign-offs, authorizations) are cryptographically signed so the actor cannot later deny having performed them. DocuSign implements this for document signatures. SWIFT messages use this for financial transactions. In AI-assisted systems: any human approval of an AI recommendation should carry a non-repudiation record.
 
 ## Proposed Patterns
 
@@ -30,9 +30,9 @@ No proposed patterns. Established coverage is sufficient.
 
 ## Connections
 
-- **Traceability** — auditability records that an action occurred; traceability explains how the output was produced
-- **Integrity** — auditability requires records that have not been tampered with; integrity is the property that guarantees this
-- **Responsibility Assignment** — audit records must identify the responsible human, not just the system
+- **Traceability**: auditability records that an action occurred; traceability explains how the output was produced
+- **Integrity**: auditability requires records that have not been tampered with; integrity is the property that guarantees this
+- **Responsibility Assignment**: audit records must identify the responsible human, not just the system
 
 ## Sources
 

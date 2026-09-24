@@ -6,7 +6,7 @@ Integrity is the assurance that data, evidence, or a record has not been altered
 
 ## Why It Matters for AI-Assisted Products
 
-Digital evidence processed by AI must retain integrity throughout the investigation. If the system cannot prove that evidence has not been altered — by the AI, by a storage failure, or by a user action — the evidence is compromised. In legal proceedings, a failure to demonstrate integrity is grounds for exclusion. In regulated environments, a tampered audit log invalidates the audit.
+Digital evidence processed by AI must retain integrity throughout the investigation. If the system cannot prove that evidence has not been altered (by the AI, by a storage failure, or by a user action), the evidence is compromised. In legal proceedings, a failure to demonstrate integrity is grounds for exclusion. In regulated environments, a tampered audit log invalidates the audit.
 
 ## Established Patterns
 
@@ -25,14 +25,14 @@ At the moment an artifact is acquired or a record is created, it is cryptographi
 ## Proposed Patterns
 
 ### AI Processing Integrity Disclosure [Proposed]
-When AI processes an artifact, the system records and surfaces whether the processing preserved or modified the original. Classification and metadata extraction are non-destructive — the original is unchanged. Some AI operations (enhancement, compression, format conversion) may alter the artifact. The disclosure makes this distinction explicit: "AI classification applied. Original artifact preserved. Hash unchanged." Most AI-assisted forensic tools do not currently surface this distinction; AI processing is treated as a black box in the custody record.
+When AI processes an artifact, the system records and surfaces whether the processing preserved or modified the original. Classification and metadata extraction are non-destructive: the original is unchanged. Some AI operations (enhancement, compression, format conversion) may alter the artifact. The disclosure makes this distinction explicit: "AI classification applied. Original artifact preserved. Hash unchanged." Most AI-assisted forensic tools do not currently surface this distinction; AI processing is treated as a black box in the custody record.
 
 ## Connections
 
-- **Auditability** — auditability requires records that have not been tampered with; integrity is the property that guarantees this
-- **Chain of Custody** — integrity verifies that what was transferred is what was received at each handoff
-- **Provenance** — provenance is undermined if the artifact has been altered since acquisition
-- **Reproducibility** — reproducing an analysis requires that the underlying data has not changed; integrity verifies this
+- **Auditability**: auditability requires records that have not been tampered with; integrity is the property that guarantees this
+- **Chain of Custody**: integrity verifies that what was transferred is what was received at each handoff
+- **Provenance**: provenance is undermined if the artifact has been altered since acquisition
+- **Reproducibility**: reproducing an analysis requires that the underlying data has not changed; integrity verifies this
 
 ## Sources
 
@@ -44,4 +44,4 @@ Scientific Working Group on Digital Evidence (SWGDE). Best Practices for Digital
 
 FINRA Rule 17a-4: Records to Be Preserved by Certain Exchange Members, Brokers, and Dealers. https://www.finra.org/rules-guidance/rulebooks/finra-rules/17a-4
 
-ISO/IEC 27001:2022 — Information Security Management Systems. https://www.iso.org/standard/82875.html
+ISO/IEC 27001:2022: Information Security Management Systems. https://www.iso.org/standard/82875.html

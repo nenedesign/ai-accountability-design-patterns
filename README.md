@@ -41,7 +41,7 @@ AI augments workflow for human judgment. It does not replace it.
 ## Repo Structure
 
 ```
-/concepts      12 concept files — definition, patterns, industry examples, sources
+/concepts      12 concept files: definition, patterns, industry examples, sources
 /audit         Scorable checklist for evaluating an AI-assisted product
 references.md  Full citation list
 ```
@@ -60,7 +60,7 @@ references.md  Full citation list
 
 Patterns marked **[Established]** are named, documented practices with real industry examples. They are grounded in published standards, deployed products, or peer-reviewed research.
 
-Patterns marked **[Proposed]** are original design recommendations grounded in adjacent research and first-principles reasoning. They address gaps in the existing literature — accountability problems that practitioners face but the field has not yet named or standardized. Proposed patterns are offered as starting points for discussion and testing, not finished prescriptions.
+Patterns marked **[Proposed]** are original design recommendations grounded in adjacent research and first-principles reasoning. They address gaps in the existing literature: accountability problems that practitioners face but the field has not yet named or standardized. Proposed patterns are offered as starting points for discussion and testing, not finished prescriptions.
 
 Not all 12 concepts have equally developed design pattern libraries. Concepts where the field is thin are identified. In those cases, proposed patterns extend the existing literature rather than repeat it.
 

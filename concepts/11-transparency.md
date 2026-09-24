@@ -11,7 +11,7 @@ Users who do not understand what an AI system is cannot calibrate their trust in
 ## Established Patterns
 
 ### System Card and Model Card [Established]
-Structured disclosure of what the AI system is: its purpose, training data, known limitations, evaluation results, intended use cases, and out-of-scope uses. Model Cards were introduced by Mitchell et al. (2019) at Google. Now standard at Hugging Face, Google, and Anthropic for published models. Design pattern: these are not documentation pages — they are structured elements accessible from within the product, not buried in external help sites.
+Structured disclosure of what the AI system is: its purpose, training data, known limitations, evaluation results, intended use cases, and out-of-scope uses. Model Cards were introduced by Mitchell et al. (2019) at Google. Now standard at Hugging Face, Google, and Anthropic for published models. Design pattern: these are not documentation pages: they are structured elements accessible from within the product, not buried in external help sites.
 
 ### Capability Disclosure [Established]
 At the point of first use or at system boundaries, the product communicates what the AI can and cannot do. Implemented in enterprise AI deployments and clinical AI systems. Prevents users from relying on the AI for tasks outside its design.
@@ -20,18 +20,18 @@ At the point of first use or at system boundaries, the product communicates what
 The system communicates clearly what data it has access to, what data it was trained on, and what data it sends to third parties. Required by the EU AI Act for high-risk AI systems. Implemented in enterprise AI deployments and GDPR-compliant products.
 
 ### Limitation Notice [Established]
-When the AI is producing output at the edge of its reliable range — low confidence, sparse training data for this domain, or a query type it was not designed for — the interface displays an explicit limitation notice. Distinct from a confidence score: a limitation notice explains why reliability may be lower, not just that it is.
+When the AI is producing output at the edge of its reliable range: low confidence, sparse training data for this domain, or a query type it was not designed for: the interface displays an explicit limitation notice. Distinct from a confidence score: a limitation notice explains why reliability may be lower, not just that it is.
 
 ## Proposed Patterns
 
 ### In-Session Transparency Panel [Proposed]
-A persistent, always-accessible panel within the product that displays: which AI model is running, what version, what data it has access to in this session, and what it cannot do. Not buried in settings, help documentation, or onboarding flows — visible within the active work context. A user mid-investigation should be able to check what the AI is and what it is doing without leaving their workflow. Currently, AI capability and version information is typically in documentation or onboarding, not surfaced during active use.
+A persistent, always-accessible panel within the product that displays: which AI model is running, what version, what data it has access to in this session, and what it cannot do. Not buried in settings, help documentation, or onboarding flows: visible within the active work context. A user mid-investigation should be able to check what the AI is and what it is doing without leaving their workflow. Currently, AI capability and version information is typically in documentation or onboarding, not surfaced during active use.
 
 ## Connections
 
-- **Explainability** — transparency is about the system; explainability is about a specific output
-- **Observability** — transparency is what the system discloses about itself; observability is what can be measured about its live behavior
-- **Responsibility Assignment** — users need transparency to understand what they are taking responsibility for when they act on AI outputs
+- **Explainability**: transparency is about the system; explainability is about a specific output
+- **Observability**: transparency is what the system discloses about itself; observability is what can be measured about its live behavior
+- **Responsibility Assignment**: users need transparency to understand what they are taking responsibility for when they act on AI outputs
 
 ## Sources
 
