@@ -69,3 +69,11 @@ Not all 12 concepts have equally developed design pattern libraries. Concepts wh
 ## Sources
 
 See [references.md](./references.md) for the full citation list.
+
+---
+
+## Related
+
+- [trauma-informed-design-patterns](https://github.com/nenedesign/trauma-informed-design-patterns): interaction design patterns for forensic, investigative, and high-stakes digital products, grounded in SAMHSA's six principles. Evidence Provenance and Explainable AI Output patterns there complement Chain of Custody and Explainability concepts here.
+- [conversational-ai-patterns](https://github.com/nenedesign/conversational-ai-patterns): conversational AI interaction design patterns, including HITL handoff design, source traceability, auditable AI output, and scale triage for regulated evidence review.
+- [conversational-ops-runtime](https://github.com/nenedesign/conversational-ops-runtime): production API that implements chain of custody, stale approval detection, and append-only audit trails for governed AI agent execution.
