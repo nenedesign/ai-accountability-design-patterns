@@ -6,7 +6,7 @@ Explainability is the capacity of an AI system to communicate why it produced a 
 
 ## Why It Matters for AI-Assisted Products
 
-AI confidence is a product of many factors that are not visible in the output. A high-confidence recommendation may rest on weak evidence, outdated data, or inputs that do not apply to the current case. Without explainability, users cannot calibrate their trust in AI outputs or identify when the AI is operating outside its reliable range. In regulated and forensic contexts, an unexplained AI output cannot be defended.
+AI confidence is a product of many factors that are not visible in the output. A high-confidence recommendation may rest on weak evidence, outdated data, or inputs that do not apply to the current case. Without explainability, users cannot calibrate their trust in AI outputs or identify when the AI is operating outside its reliable range. In regulated and high-stakes contexts, an unexplained AI output cannot be defended.
 
 Explainability is the design property that keeps AI judgment visible to human judgment.
 

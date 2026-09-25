@@ -6,7 +6,7 @@ Provenance is the documented origin and handling history of a piece of data or a
 
 ## Why It Matters for AI-Assisted Products
 
-AI systems generate outputs from data. When users or reviewers cannot trace data back to its origin, they cannot assess whether the AI's inputs were valid, current, or trustworthy. In forensic and investigative contexts, provenance is a legal requirement: evidence without documented origin is inadmissible.
+AI systems generate outputs from data. When users or reviewers cannot trace data back to its origin, they cannot assess whether the AI's inputs were valid, current, or trustworthy. In high-stakes and investigative contexts, provenance is a legal requirement: evidence without documented origin is inadmissible.
 
 Provenance is the design property that keeps AI outputs grounded in verifiable data.
 
@@ -19,7 +19,7 @@ Every artifact, output, or data item displays its origin at the point of use. Th
 Structured disclosure of where an AI model came from: training data, intended use cases, evaluation results, and known limitations. Introduced by Mitchell et al. (2019) at Google. Now standard at Hugging Face, Google, and Anthropic for published models. Design pattern: a model card is not documentation: it is a structured element that appears wherever the model is deployed, accessible from within the product.
 
 ### Artifact Metadata Panel [Established]
-A persistent panel or tooltip attached to any artifact: file, image, dataset, document: showing its origin, creator, creation timestamp, modification history, and chain of handling. Standard in digital asset management systems, forensic tools, and enterprise content management platforms.
+A persistent panel or tooltip attached to any artifact: file, image, dataset, document: showing its origin, creator, creation timestamp, modification history, and chain of handling. Standard in digital asset management systems, investigative tools, and enterprise content management platforms.
 
 ### Data Lineage Display [Established]
 The full upstream chain of a data item is visible: what source it came from, what transformations it passed through, what other data it was combined with. Implemented in dbt, Apache Atlas, and OpenLineage. Design consideration: most lineage tools are engineering-facing; making lineage readable for end users requires a simplified, narrative representation of the technical graph.

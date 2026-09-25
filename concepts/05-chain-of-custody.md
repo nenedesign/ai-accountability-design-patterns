@@ -11,13 +11,13 @@ When AI processes digital evidence (images, files, communications, financial rec
 ## Established Patterns
 
 ### Custody Log [Established]
-A sequential record of every person and system that has had control of an artifact: who received it, when, from whom, what they did with it, and when they passed it on. Implemented in digital forensic tools as a required workflow step. Each log entry includes actor identity, timestamp, action performed, and transfer destination.
+A sequential record of every person and system that has had control of an artifact: who received it, when, from whom, what they did with it, and when they passed it on. Implemented in digital investigation tools as a required workflow step. Each log entry includes actor identity, timestamp, action performed, and transfer destination.
 
 ### Transfer Documentation [Established]
 Each transfer of evidence or data between parties (analyst to analyst, tool to tool, system to system) is documented with a signed record at the moment of transfer. The ACPO Good Practice Guide for Digital Evidence specifies that every person who accesses digital evidence must document their involvement. Transfer documentation is captured at the point of transfer, not reconstructed afterward.
 
 ### Read-Only Evidence Mode [Established]
-Evidence is displayed in a protected mode that prevents modification. Accessing evidence for review does not alter it. Implemented in forensic acquisition tools and evidence review platforms. The hash of the original artifact is preserved and can be verified at any point in the review process.
+Evidence is displayed in a protected mode that prevents modification. Accessing evidence for review does not alter it. Implemented in investigative acquisition tools and evidence review platforms. The hash of the original artifact is preserved and can be verified at any point in the review process.
 
 ### Cryptographic Seal at Handoff [Established]
 At each point of transfer, a cryptographic hash or digital signature is applied to the evidence package. This allows any party in the chain to verify that what they received is identical to what was transferred, and that no modification occurred in transit.
@@ -25,7 +25,7 @@ At each point of transfer, a cryptographic hash or digital signature is applied 
 ## Proposed Patterns
 
 ### AI Handling Disclosure [Proposed]
-When AI processes an artifact: classifying it, extracting information, ranking it, or flagging it: the handling record documents: which AI model version performed the processing, what operation was performed, what the input was, what the output was, and the timestamp. This disclosure is part of the chain of custody record, not a separate log. The investigator reviewing an AI-flagged artifact can see exactly what the AI did to it and when. Currently absent in most AI-assisted forensic tools: AI processing is logged at a system level but not surfaced in the artifact's custody record.
+When AI processes an artifact: classifying it, extracting information, ranking it, or flagging it: the handling record documents: which AI model version performed the processing, what operation was performed, what the input was, what the output was, and the timestamp. This disclosure is part of the chain of custody record, not a separate log. The investigator reviewing an AI-flagged artifact can see exactly what the AI did to it and when. Currently absent in most AI-assisted investigative tools: AI processing is logged at a system level but not surfaced in the artifact's custody record.
 
 ## Connections
 

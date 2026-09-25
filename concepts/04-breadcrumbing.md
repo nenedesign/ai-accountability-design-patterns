@@ -17,7 +17,7 @@ Shows where the user is within a structure: Home / Cases / Case 4412 / Evidence 
 Shows the user's position in a sequential workflow: Step 3 of 7. Standard in wizard patterns, form flows, onboarding sequences, and compliance checklist tools. Tells the user how far they have come and how far remains.
 
 ### Annotation Trail [Established]
-As the user moves through an investigation or review, their notes, flags, and highlights are attached to the artifacts they acted on, forming a visible record of their path through the material. Implemented in forensic tools, legal review platforms, and clinical documentation systems. The annotation trail is both a working tool and an audit artifact.
+As the user moves through an investigation or review, their notes, flags, and highlights are attached to the artifacts they acted on, forming a visible record of their path through the material. Implemented in high-stakes investigative tools, legal review platforms, and clinical documentation systems. The annotation trail is both a working tool and an audit artifact.
 
 ### History-Based Navigation Trail [Established]
 The user's recent path through the product is accessible and navigable. Recently viewed items and session history of which artifacts were reviewed in what order are standard features in complex investigation tools.
@@ -25,7 +25,7 @@ The user's recent path through the product is accessible and navigable. Recently
 ## Proposed Patterns
 
 ### AI Suggestion Trail [Proposed]
-In AI-assisted investigation or review workflows, a persistent record of what the AI surfaced, what the human accepted, modified, or rejected, and at what point in the workflow. The trail distinguishes between AI-generated conclusions and human-validated ones. Most current systems surface AI suggestions without recording the human's response to each one. In regulated and forensic contexts, this trail is part of the evidentiary record.
+In AI-assisted investigation or review workflows, a persistent record of what the AI surfaced, what the human accepted, modified, or rejected, and at what point in the workflow. The trail distinguishes between AI-generated conclusions and human-validated ones. Most current systems surface AI suggestions without recording the human's response to each one. In regulated and high-stakes contexts, this trail is part of the evidentiary record.
 
 ### Investigative Path Reconstruction [Proposed]
 A timeline view of an investigator's session: which artifacts were reviewed, in what order, what actions were taken, what AI tools were applied, and what conclusions were reached at each step. Reconstructable after the fact, not only during the session. Designed for peer review, quality assurance, and legal challenge scenarios.

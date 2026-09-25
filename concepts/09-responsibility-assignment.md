@@ -6,7 +6,7 @@ Responsibility assignment is the explicit identification and recording of which 
 
 ## Why It Matters for AI-Assisted Products
 
-AI systems produce outputs. Humans bear responsibility for what is done with them. Without explicit responsibility assignment, accountability diffuses across the system: the AI produced it, the analyst accepted it, the supervisor approved it, but no one is on record as the decision-maker. In regulated industries, forensic contexts, and high-stakes environments, diffused accountability is not accountability.
+AI systems produce outputs. Humans bear responsibility for what is done with them. Without explicit responsibility assignment, accountability diffuses across the system: the AI produced it, the analyst accepted it, the supervisor approved it, but no one is on record as the decision-maker. In regulated industries, investigative contexts, and high-stakes environments, diffused accountability is not accountability.
 
 Responsibility assignment is the design property that ensures a human is always on record as the decision-maker, regardless of how much the AI contributed.
 

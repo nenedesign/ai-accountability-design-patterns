@@ -22,7 +22,7 @@ NIST SP 800-86: Guide to Integrating Forensic Techniques into Incident Response.
 
 NIST SP 800-92: Guide to Computer Security Log Management. https://csrc.nist.gov/publications/detail/sp/800-92/final
 
-## Forensic and Investigative Practice
+## Investigative and High-Stakes Practice
 
 ACPO Good Practice Guide for Digital Evidence, v5 (2012). Association of Chief Police Officers. https://www.digital-detective.net/digital-forensics-documents/ACPO_Good_Practice_Guide_for_Digital_Evidence_v5.pdf
 

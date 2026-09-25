@@ -6,7 +6,7 @@ Observability is the ability to understand the internal state and behavior of a 
 
 ## Why It Matters for AI-Assisted Products
 
-AI systems degrade. Models drift as the data they operate on shifts away from their training distribution. Error rates change. Latency increases. In regulated and forensic contexts, a system that was performing well six months ago may not be performing the same way today, and the people relying on its outputs may have no way of knowing. Observability is the design property that makes AI system health visible to the people who depend on it.
+AI systems degrade. Models drift as the data they operate on shifts away from their training distribution. Error rates change. Latency increases. In regulated and high-stakes contexts, a system that was performing well six months ago may not be performing the same way today, and the people relying on its outputs may have no way of knowing. Observability is the design property that makes AI system health visible to the people who depend on it.
 
 Most observability tooling is engineering-facing. This creates a gap: investigators, analysts, and compliance officers who rely on AI systems daily have no in-product signal when those systems degrade. The proposed patterns in this concept address that gap.
 

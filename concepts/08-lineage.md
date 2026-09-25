@@ -22,7 +22,7 @@ For any output, the system can show all upstream data items and transformations 
 ## Proposed Patterns
 
 ### Evidence Pipeline Disclosure [Proposed]
-A simplified, investigator-facing representation of how digital evidence was processed before it reached the review interface. Current forensic tools display the results of processing (extracted artifacts, classified items, ranked findings) without surfacing the pipeline that produced them. An investigator reviewing an AI-classified image should be able to see: what model processed it, what version, what classification criteria were applied, and whether any pre-processing altered the artifact. This is a simplified lineage view designed for domain users, not engineers.
+A simplified, investigator-facing representation of how digital evidence was processed before it reached the review interface. Current investigative tools display the results of processing (extracted artifacts, classified items, ranked findings) without surfacing the pipeline that produced them. An investigator reviewing an AI-classified image should be able to see: what model processed it, what version, what classification criteria were applied, and whether any pre-processing altered the artifact. This is a simplified lineage view designed for domain users, not engineers.
 
 ## Connections
 
